@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E476446B9A7717970BCA73 /* Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F36A39F9267A056B5D2CB33 /* Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework */; };
+		4432FD91499F86E01C84FB62 /* Pods_Smart_Air_VisulTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769323DD64A7049455A22E2B /* Pods_Smart_Air_VisulTests.framework */; };
+		B546DC6123BD9DA70075EEF3 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546DC6023BD9DA70075EEF3 /* CitiesViewController.swift */; };
+		B546DC6523BDA27C0075EEF3 /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B546DC6423BDA27C0075EEF3 /* CitiesTableViewCell.swift */; };
+		B54C4F342397BE27003C5854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F332397BE27003C5854 /* AppDelegate.swift */; };
+		B54C4F362397BE27003C5854 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F352397BE27003C5854 /* SceneDelegate.swift */; };
+		B54C4F382397BE27003C5854 /* AqiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F372397BE27003C5854 /* AqiViewController.swift */; };
+		B54C4F3B2397BE27003C5854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54C4F392397BE27003C5854 /* Main.storyboard */; };
+		B54C4F3D2397BE29003C5854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54C4F3C2397BE29003C5854 /* Assets.xcassets */; };
+		B54C4F402397BE29003C5854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54C4F3E2397BE29003C5854 /* LaunchScreen.storyboard */; };
+		B54C4F4B2397BE29003C5854 /* Smart_Air_VisulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F4A2397BE29003C5854 /* Smart_Air_VisulTests.swift */; };
+		B54C4F562397BE29003C5854 /* Smart_Air_VisulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F552397BE29003C5854 /* Smart_Air_VisulUITests.swift */; };
+		B54C4F64239A0E06003C5854 /* AirVisualRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F63239A0E06003C5854 /* AirVisualRequest.swift */; };
+		B54C4F6623A9D4E2003C5854 /* AirVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F6523A9D4E2003C5854 /* AirVisual.swift */; };
+		B54C4F6823A9D4F8003C5854 /* AirVisualData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F6723A9D4F8003C5854 /* AirVisualData.swift */; };
+		B54C4F7223B310E1003C5854 /* StatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F7123B310E1003C5854 /* StatesData.swift */; };
+		B54C4F7423B31105003C5854 /* CitiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F7323B31105003C5854 /* CitiesData.swift */; };
+		B54C4F7A23B46AC2003C5854 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F7923B46AC2003C5854 /* StateViewController.swift */; };
+		B54C4F7D23B5F3BF003C5854 /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54C4F7C23B5F3BF003C5854 /* StateTableViewCell.swift */; };
+		BCBC03467C4A5F2E21E7FB89 /* Pods_Smart_Air_Visul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB52566EC06970DBB4392E2 /* Pods_Smart_Air_Visul.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54C4F472397BE29003C5854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C4F282397BE27003C5854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C4F2F2397BE27003C5854;
+			remoteInfo = "Smart Air Visul";
+		};
+		B54C4F522397BE29003C5854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54C4F282397BE27003C5854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54C4F2F2397BE27003C5854;
+			remoteInfo = "Smart Air Visul";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E211EDC6B02C724E34E95AC /* Pods-Smart Air Visul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air Visul.debug.xcconfig"; path = "Target Support Files/Pods-Smart Air Visul/Pods-Smart Air Visul.debug.xcconfig"; sourceTree = "<group>"; };
+		4CB52566EC06970DBB4392E2 /* Pods_Smart_Air_Visul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Air_Visul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD081C09226311AAA61E75E /* Pods-Smart Air VisulTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air VisulTests.debug.xcconfig"; path = "Target Support Files/Pods-Smart Air VisulTests/Pods-Smart Air VisulTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF2FFEBC787CC9DA5A681A5 /* Pods-Smart Air VisulTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air VisulTests.release.xcconfig"; path = "Target Support Files/Pods-Smart Air VisulTests/Pods-Smart Air VisulTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F36A39F9267A056B5D2CB33 /* Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		769323DD64A7049455A22E2B /* Pods_Smart_Air_VisulTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Air_VisulTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99286C55732847011262DDB7 /* Pods-Smart Air Visul-Smart Air VisulUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air Visul-Smart Air VisulUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smart Air Visul-Smart Air VisulUITests/Pods-Smart Air Visul-Smart Air VisulUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B546DC6023BD9DA70075EEF3 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		B546DC6423BDA27C0075EEF3 /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		B54C4F302397BE27003C5854 /* Smart Air Visul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Air Visul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C4F332397BE27003C5854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B54C4F352397BE27003C5854 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B54C4F372397BE27003C5854 /* AqiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqiViewController.swift; sourceTree = "<group>"; };
+		B54C4F3A2397BE27003C5854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B54C4F3C2397BE29003C5854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54C4F3F2397BE29003C5854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54C4F412397BE29003C5854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C4F462397BE29003C5854 /* Smart Air VisulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Air VisulTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C4F4A2397BE29003C5854 /* Smart_Air_VisulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Air_VisulTests.swift; sourceTree = "<group>"; };
+		B54C4F4C2397BE29003C5854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C4F512397BE29003C5854 /* Smart Air VisulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Air VisulUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54C4F552397BE29003C5854 /* Smart_Air_VisulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Air_VisulUITests.swift; sourceTree = "<group>"; };
+		B54C4F572397BE29003C5854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54C4F63239A0E06003C5854 /* AirVisualRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualRequest.swift; sourceTree = "<group>"; };
+		B54C4F6523A9D4E2003C5854 /* AirVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisual.swift; sourceTree = "<group>"; };
+		B54C4F6723A9D4F8003C5854 /* AirVisualData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualData.swift; sourceTree = "<group>"; };
+		B54C4F7123B310E1003C5854 /* StatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesData.swift; sourceTree = "<group>"; };
+		B54C4F7323B31105003C5854 /* CitiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesData.swift; sourceTree = "<group>"; };
+		B54C4F7923B46AC2003C5854 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		B54C4F7C23B5F3BF003C5854 /* StateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTableViewCell.swift; sourceTree = "<group>"; };
+		C314F51A12DF2F42ECD9AD66 /* Pods-Smart Air Visul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air Visul.release.xcconfig"; path = "Target Support Files/Pods-Smart Air Visul/Pods-Smart Air Visul.release.xcconfig"; sourceTree = "<group>"; };
+		D9202C1663438255B2BE4FB6 /* Pods-Smart Air Visul-Smart Air VisulUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Air Visul-Smart Air VisulUITests.release.xcconfig"; path = "Target Support Files/Pods-Smart Air Visul-Smart Air VisulUITests/Pods-Smart Air Visul-Smart Air VisulUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54C4F2D2397BE27003C5854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBC03467C4A5F2E21E7FB89 /* Pods_Smart_Air_Visul.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F432397BE29003C5854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4432FD91499F86E01C84FB62 /* Pods_Smart_Air_VisulTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F4E2397BE29003C5854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E476446B9A7717970BCA73 /* Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4132170E243B0AC800495FD3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F6523A9D4E2003C5854 /* AirVisual.swift */,
+				B54C4F63239A0E06003C5854 /* AirVisualRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		841528AB1578F3D0CCD4CABF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E211EDC6B02C724E34E95AC /* Pods-Smart Air Visul.debug.xcconfig */,
+				C314F51A12DF2F42ECD9AD66 /* Pods-Smart Air Visul.release.xcconfig */,
+				99286C55732847011262DDB7 /* Pods-Smart Air Visul-Smart Air VisulUITests.debug.xcconfig */,
+				D9202C1663438255B2BE4FB6 /* Pods-Smart Air Visul-Smart Air VisulUITests.release.xcconfig */,
+				5AD081C09226311AAA61E75E /* Pods-Smart Air VisulTests.debug.xcconfig */,
+				5AF2FFEBC787CC9DA5A681A5 /* Pods-Smart Air VisulTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B54C4F272397BE27003C5854 = {
+			isa = PBXGroup;
+			children = (
+				B54C4F322397BE27003C5854 /* Smart Air Visul */,
+				B54C4F492397BE29003C5854 /* Smart Air VisulTests */,
+				B54C4F542397BE29003C5854 /* Smart Air VisulUITests */,
+				B54C4F312397BE27003C5854 /* Products */,
+				841528AB1578F3D0CCD4CABF /* Pods */,
+				F044239A5BFFE012F49FAFC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B54C4F312397BE27003C5854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F302397BE27003C5854 /* Smart Air Visul.app */,
+				B54C4F462397BE29003C5854 /* Smart Air VisulTests.xctest */,
+				B54C4F512397BE29003C5854 /* Smart Air VisulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54C4F322397BE27003C5854 /* Smart Air Visul */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F332397BE27003C5854 /* AppDelegate.swift */,
+				B54C4F352397BE27003C5854 /* SceneDelegate.swift */,
+				B54C4F6C23AA17A7003C5854 /* Controller */,
+				B54C4F6A23AA1765003C5854 /* Model */,
+				4132170E243B0AC800495FD3 /* Service */,
+				B54C4F6B23AA1791003C5854 /* View */,
+				B54C4F3C2397BE29003C5854 /* Assets.xcassets */,
+				B54C4F412397BE29003C5854 /* Info.plist */,
+				B54C4F3E2397BE29003C5854 /* LaunchScreen.storyboard */,
+			);
+			path = "Smart Air Visul";
+			sourceTree = "<group>";
+		};
+		B54C4F492397BE29003C5854 /* Smart Air VisulTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F4A2397BE29003C5854 /* Smart_Air_VisulTests.swift */,
+				B54C4F4C2397BE29003C5854 /* Info.plist */,
+			);
+			path = "Smart Air VisulTests";
+			sourceTree = "<group>";
+		};
+		B54C4F542397BE29003C5854 /* Smart Air VisulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F552397BE29003C5854 /* Smart_Air_VisulUITests.swift */,
+				B54C4F572397BE29003C5854 /* Info.plist */,
+			);
+			path = "Smart Air VisulUITests";
+			sourceTree = "<group>";
+		};
+		B54C4F6A23AA1765003C5854 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F6723A9D4F8003C5854 /* AirVisualData.swift */,
+				B54C4F7323B31105003C5854 /* CitiesData.swift */,
+				B54C4F7123B310E1003C5854 /* StatesData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B54C4F6B23AA1791003C5854 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B546DC6423BDA27C0075EEF3 /* CitiesTableViewCell.swift */,
+				B54C4F392397BE27003C5854 /* Main.storyboard */,
+				B54C4F7C23B5F3BF003C5854 /* StateTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B54C4F6C23AA17A7003C5854 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B54C4F372397BE27003C5854 /* AqiViewController.swift */,
+				B546DC6023BD9DA70075EEF3 /* CitiesViewController.swift */,
+				B54C4F7923B46AC2003C5854 /* StateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F044239A5BFFE012F49FAFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB52566EC06970DBB4392E2 /* Pods_Smart_Air_Visul.framework */,
+				5F36A39F9267A056B5D2CB33 /* Pods_Smart_Air_Visul_Smart_Air_VisulUITests.framework */,
+				769323DD64A7049455A22E2B /* Pods_Smart_Air_VisulTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54C4F2F2397BE27003C5854 /* Smart Air Visul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C4F5A2397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air Visul" */;
+			buildPhases = (
+				9CAD3CF7CBC6AF248EBCFE00 /* [CP] Check Pods Manifest.lock */,
+				B54C4F2C2397BE27003C5854 /* Sources */,
+				B54C4F2D2397BE27003C5854 /* Frameworks */,
+				B54C4F2E2397BE27003C5854 /* Resources */,
+				682AC5AB51F959E836C85D18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Air Visul";
+			productName = "Smart Air Visul";
+			productReference = B54C4F302397BE27003C5854 /* Smart Air Visul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54C4F452397BE29003C5854 /* Smart Air VisulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C4F5D2397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air VisulTests" */;
+			buildPhases = (
+				F7921BA28B1ED5330DE2464B /* [CP] Check Pods Manifest.lock */,
+				B54C4F422397BE29003C5854 /* Sources */,
+				B54C4F432397BE29003C5854 /* Frameworks */,
+				B54C4F442397BE29003C5854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C4F482397BE29003C5854 /* PBXTargetDependency */,
+			);
+			name = "Smart Air VisulTests";
+			productName = "Smart Air VisulTests";
+			productReference = B54C4F462397BE29003C5854 /* Smart Air VisulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54C4F502397BE29003C5854 /* Smart Air VisulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C4F602397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air VisulUITests" */;
+			buildPhases = (
+				58CB7098E0A4CF1F618DA711 /* [CP] Check Pods Manifest.lock */,
+				B54C4F4D2397BE29003C5854 /* Sources */,
+				B54C4F4E2397BE29003C5854 /* Frameworks */,
+				B54C4F4F2397BE29003C5854 /* Resources */,
+				302DFCD3ED648E795D8A4284 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54C4F532397BE29003C5854 /* PBXTargetDependency */,
+			);
+			name = "Smart Air VisulUITests";
+			productName = "Smart Air VisulUITests";
+			productReference = B54C4F512397BE29003C5854 /* Smart Air VisulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54C4F282397BE27003C5854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nutnutcha Hanggitthagul";
+				TargetAttributes = {
+					B54C4F2F2397BE27003C5854 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B54C4F452397BE29003C5854 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B54C4F2F2397BE27003C5854;
+					};
+					B54C4F502397BE29003C5854 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B54C4F2F2397BE27003C5854;
+					};
+				};
+			};
+			buildConfigurationList = B54C4F2B2397BE27003C5854 /* Build configuration list for PBXProject "Smart Air Visul" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54C4F272397BE27003C5854;
+			productRefGroup = B54C4F312397BE27003C5854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54C4F2F2397BE27003C5854 /* Smart Air Visul */,
+				B54C4F452397BE29003C5854 /* Smart Air VisulTests */,
+				B54C4F502397BE29003C5854 /* Smart Air VisulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54C4F2E2397BE27003C5854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C4F402397BE29003C5854 /* LaunchScreen.storyboard in Resources */,
+				B54C4F3D2397BE29003C5854 /* Assets.xcassets in Resources */,
+				B54C4F3B2397BE27003C5854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F442397BE29003C5854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F4F2397BE29003C5854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		302DFCD3ED648E795D8A4284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul-Smart Air VisulUITests/Pods-Smart Air Visul-Smart Air VisulUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul-Smart Air VisulUITests/Pods-Smart Air Visul-Smart Air VisulUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul-Smart Air VisulUITests/Pods-Smart Air Visul-Smart Air VisulUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CB7098E0A4CF1F618DA711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart Air Visul-Smart Air VisulUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682AC5AB51F959E836C85D18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul/Pods-Smart Air Visul-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul/Pods-Smart Air Visul-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart Air Visul/Pods-Smart Air Visul-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAD3CF7CBC6AF248EBCFE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart Air Visul-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7921BA28B1ED5330DE2464B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart Air VisulTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54C4F2C2397BE27003C5854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C4F6823A9D4F8003C5854 /* AirVisualData.swift in Sources */,
+				B54C4F382397BE27003C5854 /* AqiViewController.swift in Sources */,
+				B546DC6123BD9DA70075EEF3 /* CitiesViewController.swift in Sources */,
+				B54C4F7A23B46AC2003C5854 /* StateViewController.swift in Sources */,
+				B546DC6523BDA27C0075EEF3 /* CitiesTableViewCell.swift in Sources */,
+				B54C4F342397BE27003C5854 /* AppDelegate.swift in Sources */,
+				B54C4F6623A9D4E2003C5854 /* AirVisual.swift in Sources */,
+				B54C4F64239A0E06003C5854 /* AirVisualRequest.swift in Sources */,
+				B54C4F362397BE27003C5854 /* SceneDelegate.swift in Sources */,
+				B54C4F7423B31105003C5854 /* CitiesData.swift in Sources */,
+				B54C4F7223B310E1003C5854 /* StatesData.swift in Sources */,
+				B54C4F7D23B5F3BF003C5854 /* StateTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F422397BE29003C5854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C4F4B2397BE29003C5854 /* Smart_Air_VisulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C4F4D2397BE29003C5854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54C4F562397BE29003C5854 /* Smart_Air_VisulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54C4F482397BE29003C5854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C4F2F2397BE27003C5854 /* Smart Air Visul */;
+			targetProxy = B54C4F472397BE29003C5854 /* PBXContainerItemProxy */;
+		};
+		B54C4F532397BE29003C5854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54C4F2F2397BE27003C5854 /* Smart Air Visul */;
+			targetProxy = B54C4F522397BE29003C5854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B54C4F392397BE27003C5854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C4F3A2397BE27003C5854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B54C4F3E2397BE29003C5854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54C4F3F2397BE29003C5854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B54C4F582397BE29003C5854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B54C4F592397BE29003C5854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54C4F5B2397BE29003C5854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E211EDC6B02C724E34E95AC /* Pods-Smart Air Visul.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air Visul/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-Visul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54C4F5C2397BE29003C5854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C314F51A12DF2F42ECD9AD66 /* Pods-Smart Air Visul.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air Visul/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-Visul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B54C4F5E2397BE29003C5854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD081C09226311AAA61E75E /* Pods-Smart Air VisulTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air VisulTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-VisulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Air Visul.app/Smart Air Visul";
+			};
+			name = Debug;
+		};
+		B54C4F5F2397BE29003C5854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF2FFEBC787CC9DA5A681A5 /* Pods-Smart Air VisulTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air VisulTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-VisulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Air Visul.app/Smart Air Visul";
+			};
+			name = Release;
+		};
+		B54C4F612397BE29003C5854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99286C55732847011262DDB7 /* Pods-Smart Air Visul-Smart Air VisulUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air VisulUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-VisulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Air Visul";
+			};
+			name = Debug;
+		};
+		B54C4F622397BE29003C5854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9202C1663438255B2BE4FB6 /* Pods-Smart Air Visul-Smart Air VisulUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J5945LD2U;
+				INFOPLIST_FILE = "Smart Air VisulUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Air-VisulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Air Visul";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54C4F2B2397BE27003C5854 /* Build configuration list for PBXProject "Smart Air Visul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C4F582397BE29003C5854 /* Debug */,
+				B54C4F592397BE29003C5854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C4F5A2397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air Visul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C4F5B2397BE29003C5854 /* Debug */,
+				B54C4F5C2397BE29003C5854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C4F5D2397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air VisulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C4F5E2397BE29003C5854 /* Debug */,
+				B54C4F5F2397BE29003C5854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54C4F602397BE29003C5854 /* Build configuration list for PBXNativeTarget "Smart Air VisulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54C4F612397BE29003C5854 /* Debug */,
+				B54C4F622397BE29003C5854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54C4F282397BE27003C5854 /* Project object */;
+}
